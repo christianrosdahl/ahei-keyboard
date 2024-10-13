@@ -58,14 +58,21 @@ Finally, I also made a Swedish version of the layout, since I type a lot in Swed
 ### Conclusion
 After having given a lot of thought to this, and reaching a result that seems rather satisfying, I wanted to share my thoughts and results, in case that it could benefit someone else as well. It would be fun if someone else either wanted to try it out, or could use the ideas to construct a modification that suits them. I have now been using the Swedish variant of the layout myself for more than two years, and I'm still satisfied with it and haven't come up with any alternative letter distribution that I would prefer.
 
-## Download and installation for macOS
-1. Download the keyboard layout file ending in `.keylayout` (click on the file in the list of files and then on the download symbol "Download raw file" above the file content).
+## Download and installation
+### MacOS
+1. Download the keyboard layout file in the folder `macOS` ending in `.keylayout` (click on the file in the list of files and then on the download symbol "Download raw file" above the file content).
 2. Open Finder, click *Go* in the menu at the top of the screen, and select *Computer*. Go to *Macintosh HD -> Library -> Keyboard Layouts*. (If *Library* doesn't appear, try holding down the *Option* key.)
 3. Put the `.keylayout` file in that folder.
 4. Restart the computer.
 5. Open *System Preferences*, select *Keyboard* in the side menu. Find *Input Sources* and click the *Edit...* button.
 6. Click the *+* symbol in the lower left corner of the window that appeared. Choose *Others* in the left-hand menu, select *AHEI* and click the *Add* button. The layout is now added, and the opened windows can be closed.
 7. To switch to the layout, click the keyboard symbol at the top of the screen (it might look either like a keyboard or like one or a few letters in a box), and select *AHEI*.
+
+### Windows
+1. Click on the folder `windows` and then `ahei` (or `ahei_swedish` for the Swedish variant).
+2. Download the file `setup.exe` in this folder (by clicking the file name and then on the download symbol "Download raw file" above the file content).
+3. Double click the downloaded file and follow the installation steps.
+4. When the layout is installed, you should be able to select it in the lower right corner of the screen or in the system settings.
 
 ## Remarks
 ### Previous version
