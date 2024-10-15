@@ -68,6 +68,14 @@ After having given a lot of thought to this, and reaching a result that seems ra
 6. Click the *+* symbol in the lower left corner of the window that appeared. Choose *Others* in the left-hand menu, select *AHEI* and click the *Add* button. The layout is now added, and the opened windows can be closed.
 7. To switch to the layout, click the keyboard symbol at the top of the screen (it might look either like a keyboard or like one or a few letters in a box), and select *AHEI*.
 
+### Linux
+1. Click on the folder `linux` and download the installation file `install_ahei_layout.sh` (or `install_ahei_swedish_layout.sh`). It can be downloaded by clicking the file name and then the download symbol "Download raw file" above the file content.
+2. In the terminal, go to the folder where you saved the file: `cd path/to/folder`.
+3. In the terminal, run `sudo ./install_ahei_layout.sh` (or `sudo ./install_ahei_swedish_layout.sh`).
+4. Restart the computer.
+5. Open the system settings and click *Region & Language*. Under *Input Sources*, click the *+* symbol. Select *English (United States)* (or *Swedish*). If the language doesn't appear in the list, click the three dots at the bottom and then *Other*. Select *English (AHEI)* (or *Swedish (AHEI)*).
+6. You should now be able to select keyboard layout at the upper right corner of the screen.
+
 ### Windows
 1. Click on the folder `windows` and then `ahei` (or `ahei_swedish` for the Swedish variant).
 2. Download the file `setup.exe` in this folder (by clicking the file name and then on the download symbol "Download raw file" above the file content).
