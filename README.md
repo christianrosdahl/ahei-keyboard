@@ -88,9 +88,7 @@ After having given a lot of thought to this, and reaching a result that seems ra
 
 ### Windows
 
-**Note**: With the current layout implementations for Windows, the modifier keys don't work correctly for some applications. Unfortunately I haven't found a simple solution for this yet. Please let me know if you know how to solve it.
-
-1. Click on the folder `windows` and then `ahei` (or `ahei_swedish` for the Swedish variant).
+1. Click on the folder `windows` and then `ahei-en` (or `ahei-sv` for the Swedish variant).
 2. Download the file `setup.exe` in this folder (by clicking the file name and then on the download symbol "Download raw file" above the file content).
 3. Double click the downloaded file and follow the installation steps.
 4. When the layout is installed, you should be able to select it in the lower right corner of the screen or in the system settings.
