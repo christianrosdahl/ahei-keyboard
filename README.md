@@ -69,7 +69,7 @@ After having given a lot of thought to this, and reaching a result that seems ra
 
 ### MacOS
 
-1. Download the keyboard layout file in the folder `macOS` ending in `.keylayout` (click on the file in the list of files and then on the download symbol "Download raw file" above the file content).
+1. Download the keyboard layout file in the folder `macOS` ending in `.keylayout` (click on the file in the list of files and then on the download symbol "Download raw file" above the file content). For the Swedish variant, `ahei_swedish.keylayout` is the normal variant described above. The alternative wide-mod variant `ahei_swedish_wide.keylayout` is described further down in this text.
 2. Open Finder, click _Go_ in the menu at the top of the screen, and select _Computer_. Go to _Macintosh HD -> Library -> Keyboard Layouts_. (If _Library_ doesn't appear, try holding down the _Option_ key.)
 3. Put the `.keylayout` file in that folder.
 4. Restart the computer.
@@ -102,3 +102,17 @@ In an earlier version of the layout, the `W` and `M` had switched positions comp
 ### Finger assignment for number row
 
 My focus has been on optimizing the letter keys, and my intention was to keep the number row as it is in the Dvorak layout (or the SvDvorak layout, in the case of the Swedish variant, in which the number keys are the same as in the Swedish QWERTY layout). However, in the English variant, the suggested finger assignment in the picture for the number row is slightly different from the default QWERTY one. The reason for this is that it was specified like that for the Dvorak layout, which was my starting point, in the keyboard layout analyzer. For the "Chained English Bigrams 9" test in the analyzer https://klanext.keyboard-design.com/, this non-standard finger assignment gives a slightly better score (136.54 compared to 136.98), so it might be a good idea. For the Swedish variant, the finger assignment is kept as the default one, simply because it was specified like that in the Swedish QWERTY variant that was my starting point in the layout analyzer. It's possible that the alternative finger assigment would be advantageous for the Swedish variant as well. However, since the parentheses, which are the most used keys on the row, are displaced by one step in the English variant compared to the Swedish one, there might be some extra motivation for a non-standard finger assignment for the English variant, since it would entail that stronger fingers are used for the parentheses. Personally, I use the Swedish variant with the default finger assigment as indicated in the picture, mainly because that's what I'm used to, but this is an option that you could experiment with if you want to.
+
+## Advanced modifications
+
+### Wide mod
+
+To increase the ergonomy of the layout further, when using a standard keyboard, the so-called "wide mod" can be applied. You can read more about it here: https://colemakmods.github.io/ergonomic-mods/wide.html. This modification is achieved by displacing the letter and number keys assigned to the right hand one step to the right, and placing the keys to the right of these in the resulting new middle column. The "home position" of the right hand is also displaced one step to the right, accordingly. In summary, the main advantages are:
+
+1. The separation between your hands is increased (i.e., you get some of the effect from a split keyboard even on a regular keyboard).
+2. Frequently used keys to the right, such as `return` and `delete`, get easier to reach.
+3. The stress on the pinky finger is decreased by placing some of the non-letter keys in the middle of the keyboard instead.
+
+Below is an illustration of the wide mod applied to the Swedish AHEI layout for macOS. This particular layout is available in the folder `macOS`, as `ahei_swedish_wide.keylayout`, and can be installed in the same way as the regular Swedish AHEI layout `ahei_swedish.keylayout`.
+
+![The Swedish AHEI keyboard layout](./images/ahei_swedish_wide.png)
