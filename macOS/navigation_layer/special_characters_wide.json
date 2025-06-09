@@ -1,0 +1,69 @@
+{
+  "description": "Special characters (wide mod)",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "slash",
+        "modifiers": {
+          "mandatory": ["right_option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "equal_sign",
+          "modifiers": ["option", "shift"]
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "8",
+        "modifiers": {
+          "mandatory": ["right_alt"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "8",
+          "modifiers": ["left_shift", "left_alt"],
+          "repeat": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "9",
+        "modifiers": {
+          "mandatory": ["right_alt"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "9",
+          "modifiers": ["left_shift", "left_alt"],
+          "repeat": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "0",
+        "modifiers": {
+          "mandatory": ["right_alt"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "0",
+          "modifiers": ["left_shift", "left_alt"],
+          "repeat": true
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}

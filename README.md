@@ -105,6 +105,48 @@ My focus has been on optimizing the letter keys, and my intention was to keep th
 
 ## Advanced modifications
 
+This section describes some further modifications that are not part of the basic AHEI layout. However, instructions for how to add these extra modifications are available for macOS.
+
+### Navigation layer
+
+To facilitate navigating in texts (and other applications where the arrow keys can be used), a separate navigation layer can be added to the keyboard layout. This layer is accessed by holding down a _navigation layer modifier_ key, `nav mod`. I use such a layer with `caps lock` and the right `option` key as navigation layer modifiers (the left `option` key is used for accessing special symbols, just as in the standard layout). The `caps lock` key also works as a `delete` key when pressing it fast instead of holding it down or pressing it together with other keys. The navigation layer is illustrated in an image at the end of this subsection, and the shortcuts (corresponding to the orange keys in the image) are the following:
+
+| Shortcut (`nav mod` +) | Result                                | Alt. shortcut              |
+| ---------------------- | ------------------------------------- | -------------------------- |
+| `S`                    | left arrow                            | `←`                        |
+| `D`                    | up arrow                              | `↑`                        |
+| `N`                    | right arrow                           | `→`                        |
+| `T`                    | down arrow                            | `↓`                        |
+| `G`                    | go to start of line                   | `cmd` + `←`                |
+| `L`                    | go to end of line                     | `cmd` + `→`                |
+| `C`                    | go to beginning of previous word      | `option` + `←`             |
+| `M`                    | go to end of next word                | `option` + `→`             |
+| `F`                    | delete (previous character)           | `delete`                   |
+| `B`                    | delete word to the left of the cursor | `option` + `delete`        |
+| `H`                    | go to previous tab (e.g. in browser)  | `ctrl` + `tab`             |
+| `E`                    | go to next tab (e.g. in browser)      | `shift` + `ctrl` + `tab`   |
+| `R`                    | `F12`                                 | `F12`                      |
+| `space`                | enter                                 | `return`                   |
+| `A`                    | modifier combination\*                | `cmd` + `option` + `shift` |
+
+\* The combination `nav mod` + `A` has the same effect as `cmd` + `option` + `shift`. This can be used in configurable keyboard shortcuts by setting them to `cmd` + `option` + `shift` + `<some key>`, and being able to access them by `nav mod` + `A` + `<some key>`.
+
+For the cursor-moving shortcuts, the text that the cursor moves over can be marked by simultaneously holding down `shift`.
+
+In addition to the navigation keys, I have also added some useful special characters that are difficult to access on a Swedish keyboard to the navigation layer. These are shown in the middle of the yellow keys in the image below. E.g., `nav mod` + `V` gives the backtick that otherwise requires pressing `shift` + the dead key next to `delete` followed by `space` on a Swedish keyboard layout.
+
+Adding this navigation layer to the AHEI layout in macOS is unfortunately not possible using only a `.keylayout` file, since these don't allow changing modifier keys. However, it is possible to use with the app _Karabiner-Elements_ running in the background, following these instructions:
+
+1. Download _Karabiner-Elements_ here: https://karabiner-elements.pqrs.org/ and install it.
+2. Open _Karabiner-Elements_.
+3. Click _Complex Modifications_ in the menu.
+4. Click _Add your own rule_.
+5. Paste the content from the corresponding JSON file, and click _Save_.
+
+To add the basic navigation layer (orange keys in the picture), add the content of the file `macOS/navigation_layer/navigation_layer.json` as a rule (as described above). To also add the special characters (only compatible with the Swedish layout), add the content of `macOS/navigation_layer/special_characters.json` as an additional rule.
+
+![The Swedish AHEI keyboard layout with navigation layer](./images/ahei_swedish_nav_layer.png)
+
 ### Wide mod
 
 To increase the ergonomy of the layout further, when using a standard keyboard, the so-called "wide mod" can be applied. You can read more about it here: https://colemakmods.github.io/ergonomic-mods/wide.html. This modification is achieved by displacing the letter and number keys assigned to the right hand one step to the right, and placing the keys to the right of these in the resulting new middle column. The "home position" of the right hand is also displaced one step to the right, accordingly. In summary, the main advantages are:
@@ -115,4 +157,6 @@ To increase the ergonomy of the layout further, when using a standard keyboard, 
 
 Below is an illustration of the wide mod applied to the Swedish AHEI layout for macOS. This particular layout is available in the folder `macOS`, as `ahei_swedish_wide.keylayout`, and can be installed in the same way as the regular Swedish AHEI layout `ahei_swedish.keylayout`.
 
-![The Swedish AHEI keyboard layout](./images/ahei_swedish_wide.png)
+![The Swedish AHEI keyboard layout with wide mod](./images/ahei_swedish_wide.png)
+
+Implementations of the navigation layer (with or without special characters) for macOS, as described in the previous subsection, are avalible for the wide mod as well, using the files `macOS/navigation_layer/navigation_layer_wide.json` and (optionally) `macOS/navigation_layer/special_characters_wide.json` as rules in _Karabiner-Elements_.
