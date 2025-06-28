@@ -163,4 +163,6 @@ Below is an illustration of the wide mod applied to the Swedish AHEI layout for 
 
 ![The Swedish AHEI keyboard layout with wide mod](./images/ahei_swedish_wide.png)
 
-Implementations of the navigation layer (with or without special characters) for macOS, as described in the previous subsection, are avalible for the wide mod as well, using the files `macOS/navigation_layer/navigation_layer_wide.json` and (optionally) `macOS/navigation_layer/special_characters_wide.json` as rules in _Karabiner-Elements_.
+Implementations of the navigation layer (with or without special characters) for macOS, as described in the previous subsection, are avalible for the wide mod as well, using the files `macOS/navigation_layer/navigation_layer_wide.json` and (optionally) `macOS/navigation_layer/special_characters_wide.json` as rules in _Karabiner-Elements_. The navigation layer with special characters for the wide mod is shown in the image below. Compared to the non-wide-mod version, some extra special characters have been added, since they are harder to reach in the wide mod.
+
+![The Swedish AHEI keyboard layout with wide mod and navigation layer](./images/ahei_swedish_nav_layer_wide.png)
