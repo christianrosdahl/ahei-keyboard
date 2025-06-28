@@ -125,6 +125,10 @@ To facilitate navigating in texts (and other applications where the arrow keys c
 | `B`                    | delete word to the left of the cursor | `option` + `delete`        |
 | `H`                    | go to previous tab (e.g. in browser)  | `ctrl` + `tab`             |
 | `E`                    | go to next tab (e.g. in browser)      | `shift` + `ctrl` + `tab`   |
+| `Ö`                    | up arrow                              | `↑`                        |
+| `J`                    | left arrow                            | `←`                        |
+| `Ä`                    | right arrow                           | `→`                        |
+| `K`                    | down arrow                            | `↓`                        |
 | `R`                    | `F12`                                 | `F12`                      |
 | `P`                    | page up                               | `pgUp`                     |
 | `O`                    | page down                             | `pgDn`                     |
