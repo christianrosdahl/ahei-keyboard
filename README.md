@@ -126,6 +126,10 @@ To facilitate navigating in texts (and other applications where the arrow keys c
 | `H`                    | go to previous tab (e.g. in browser)  | `ctrl` + `tab`             |
 | `E`                    | go to next tab (e.g. in browser)      | `shift` + `ctrl` + `tab`   |
 | `R`                    | `F12`                                 | `F12`                      |
+| `P`                    | page up                               | `pgUp`                     |
+| `O`                    | page down                             | `pgDn`                     |
+| `'`                    | home                                  | `home`                     |
+| `-`                    | end                                   | `end`                      |
 | `space`                | enter                                 | `return`                   |
 | `A`                    | modifier combination\*                | `cmd` + `option` + `shift` |
 

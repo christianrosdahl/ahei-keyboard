@@ -387,6 +387,70 @@
         }
       ],
       "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "w",
+        "modifiers": {
+          "mandatory": ["right_option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "page_up",
+          "modifiers": []
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "e",
+        "modifiers": {
+          "mandatory": ["right_option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "page_down",
+          "modifiers": []
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "non_us_pound",
+        "modifiers": {
+          "mandatory": ["right_option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "end",
+          "modifiers": []
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "close_bracket",
+        "modifiers": {
+          "mandatory": ["right_option"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "home",
+          "modifiers": []
+        }
+      ],
+      "type": "basic"
     }
   ]
 }
